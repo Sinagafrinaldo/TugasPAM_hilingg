@@ -15,7 +15,7 @@ Asset gambar serta icon berada pada folder
 Data penerbangan berada pada file JSON:
 >Data_penerbangan.json
 
-Modul yang dipakai hanya diimport dari ```react-native``` dan untuk navigasi dibuat menggunakan state berdasarkan kondisi mencari atau saat tidak mencari.
+Modul yang dipakai hanya diimport dari ```react-native``` dan juga dari ```react``` , untuk navigasi dibuat menggunakan state berdasarkan kondisi mencari atau saat tidak mencari.
 Saat tidak mencari maka di aplikasi akan tampil menu awal, dan ketika dilakukan pencarian, maka state akan berubah menjadi konsisi mencari sehingga screen dapat berubah.
 
 ### Tampilan Utama
